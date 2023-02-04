@@ -1,5 +1,6 @@
 import requests
 import time
+import os
 from pyquery import PyQuery as pq
 tl = []
 cs = int(input('请输入次数：'))
@@ -28,3 +29,5 @@ def remove_duplicates():
     f_write.close()
 
 remove_duplicates()
+print('OK!')
+os.system('pause')
